@@ -1,6 +1,6 @@
-var PropertyModifier = require('./modifier');
-var completePropertyOf = require('./completePropertyOf');
+var PropertyModifier = include('./modifier');
+var completePropertyOf = include('./completePropertyOf');
 
 var complete = PropertyModifier.create(completePropertyOf);
 
-module.exports = complete;
+return complete;

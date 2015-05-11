@@ -26,4 +26,4 @@ var PropertyModifier = {
 	}
 };
 
-module.exports = PropertyModifier;
+return PropertyModifier;

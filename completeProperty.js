@@ -5,4 +5,4 @@ function completeProperty(object, name, value, force){
 	}
 }
 
-module.exports = completeProperty;
+return completeProperty;

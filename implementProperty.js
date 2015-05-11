@@ -18,4 +18,4 @@ else{
 	};
 }
 
-module.exports = implementProperty;
+return implementProperty;

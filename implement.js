@@ -1,6 +1,6 @@
-var PropertyModifier = require('./modifier');
-var implementPropertyOf = require('./implementPropertyOf');
+var PropertyModifier = include('./modifier');
+var implementPropertyOf = include('./implementPropertyOf');
 
 var implement = PropertyModifier.create(implementPropertyOf);
 
-module.exports = implement;
+return implement;

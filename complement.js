@@ -1,6 +1,6 @@
-var PropertyModifier = require('./modifier');
-var complementPropertyOf = require('./complementPropertyOf');
+var PropertyModifier = include('./modifier');
+var complementPropertyOf = include('./complementPropertyOf');
 
 var complement = PropertyModifier.create(complementPropertyOf);
 
-module.exports = complement;
+return complement;

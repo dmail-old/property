@@ -13,4 +13,4 @@ else{
 	};
 }
 
-module.exports = implementPropertyOf;
+return implementPropertyOf;

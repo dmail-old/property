@@ -1,11 +1,12 @@
-module.exports = {
-	complement: require('./complement'),
-	complementProperty: require('./complementProperty'),
-	complementPropertyOf: require('./complementPropertyOf'),
-	complete: require('./complete'),
-	completeProperty: require('./completeProperty'),
-	completePropertyOf: require('./completePropertyOf'),
-	implement: require('./implement'),
-	implementProperty: require('./implementProperty'),
-	implementPropertyOf: require('./implementPropertyOf')
+return {
+	complement: include('./complement'),
+	complementProperty: include('./complementProperty'),
+	complementPropertyOf: include('./complementPropertyOf'),
+	complete: include('./complete'),
+	completeProperty: include('./completeProperty'),
+	completePropertyOf: include('./completePropertyOf'),
+	implement: include('./implement'),
+	implementProperty: include('./implementProperty'),
+	implementPropertyOf: include('./implementPropertyOf'),
+	modifier: include('./modifier')
 };

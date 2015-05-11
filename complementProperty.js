@@ -1,4 +1,4 @@
-var implementProperty = require('./implementProperty');
+var implementProperty = include('./implementProperty');
 
 function complementProperty(object, name, value, force){
 	if( force || !(name in object) ){
@@ -6,4 +6,4 @@ function complementProperty(object, name, value, force){
 	}
 }
 
-module.exports = complementProperty;
+return complementProperty;
